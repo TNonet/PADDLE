@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "paddle"
+version = "0.1.0"
+description = ""
+authors = []
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+tensorflow = "^2.12.0"
+pandas = "^2.0.0"
+ipykernel = "^6.22.0"
+matplotlib = "^3.7.1"
+biopython = "^1.81"
+psipredauto = "^0.0.1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

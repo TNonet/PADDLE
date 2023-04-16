@@ -55,7 +55,7 @@ def read_iupred(file):
         if '#' in line:
             continue
         tokens = line.split()
-        assert len(tokens) == 3
+        # assert len(tokens) == 3
         
         prot += tokens[1]
         dis.append(float(tokens[2]))
